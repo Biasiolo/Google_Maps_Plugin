@@ -1,21 +1,28 @@
 {
-    "name": "google-maps-plugin",
-    "version": "1.0.0",
-    "description": "A simple plugin for embedding Google Maps with a marker.",
-    "main": "main.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Biasiolo/Google_Maps_Plugin"
-    },
-    "keywords": [
-        "maps",
-        "google maps",
-        "plugin",
-        "javascript"
-    ],
-    "author": "Biasiolo",
-    "license": "MIT",
-    "dependencies": {
-        "jquery": "^3.7.1"
-    }
+  "name": "google-maps-plugin",
+  "version": "1.0.0",
+  "description": "A simple plugin for embedding Google Maps with a marker.",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biasiolo/Google_Maps_Plugin.git"
+  },
+  "keywords": [
+    "maps",
+    "google maps",
+    "plugin",
+    "javascript"
+  ],
+  "author": "Biasiolo",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Biasiolo/Google_Maps_Plugin/issues"
+  },
+  "homepage": "https://github.com/Biasiolo/Google_Maps_Plugin#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
