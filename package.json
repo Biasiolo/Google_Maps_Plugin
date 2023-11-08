@@ -1,0 +1,23 @@
+{
+    "name": "jquery-google-maps-plugin",
+    "version": "1.0.0",
+    "description": "A simple jQuery plugin for embedding Google Maps with a marker.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/seuusuario/seuprojeto.git" 
+    },
+    "keywords": [
+      "jquery",
+      "google maps",
+      "plugin"
+    ],
+    "author": "Seu Nome",
+    "license": "MIT",
+    "dependencies": {
+      "jquery": "^3.7.1"
+    }
+  }
