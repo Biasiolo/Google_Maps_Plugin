@@ -20,12 +20,33 @@ This project is licensed under the MIT License.
 ```bash
 npm install jquery-google-maps-plugin
 
-Copy code
+
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="main.js"></script>
+
 Create a <div> element where you want to display the map.
-Copy code
 <div id="map" style="height: 400px; width: 600px; margin: 5% auto;"></div>
 
+Import the Google Maps API using your API key:
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+Replace YOUR_API_KEY with your own Google Maps API key.
+
+Initialize the map using the provided function initMap:
+<script>
+  function initMap() {
+    // Create a Map object
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: { lat: -34.397, lng: 150.644 },
+      zoom: 8
+    });
+
+    // Create a marker on the map
+    var marker = new google.maps.Marker({
+      position: { lat: -34.397, lng: 150.644 },
+      map: map,
+      title: 'My Marker'
+    });
+  }
+</script>
 
 
